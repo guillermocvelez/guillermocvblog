@@ -1,0 +1,7 @@
+{
+    "prettier.useTabs": true,
+    "prettier.singleQuote": true,
+    "cSpell.words": [
+        "datetime"
+    ]
+}
