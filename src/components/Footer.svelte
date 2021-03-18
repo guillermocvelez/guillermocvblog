@@ -3,7 +3,7 @@
 
 <style>
     .Footer{
-        background: rgba(28,41,56,0.8);
+        background: #414042;
         color: white;
         padding: 1.5em ;
         margin: 2em 0 0 0;
@@ -21,10 +21,15 @@
         justify-content: space-between;
         align-items: center;
     }
-    .footer-svelte {
+    .Footer-svelte{
         display: flex;
-        align-self: center;
+        align-items: center;
     }
+    .Footer-svelte img {
+        margin: 0 0 0 1rem;
+        width: 25px;
+    }
+    
     
 </style>
 
@@ -32,10 +37,11 @@
     <div class="Footer-container">
         <div class="Footer-content">
             <div class="Footer-copy">
-                <h4>Hecho por GCV</h4>
+                <h4>Guillermo Castaño Vélez 2021</h4>
             </div>
             <div class="Footer-svelte">
-                <h4>Hecho con Svelte</h4>
+                <h4>Powered with</h4>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png" alt="">
             </div>
         </div>
     </div>

@@ -78,7 +78,7 @@
 					<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
 					<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>			
 					<li><a aria-current="{segment === 'Contact' ? 'page' : undefined}" href="Contact">Contacto</a></li>
-					<li><a aria-current="{segment === 'general' ? 'page' : undefined}" href="general">General</a></li>
+					<li><a aria-current="{segment === 'proyectos' ? 'page' : undefined}" href="proyectos">Proyectos</a></li>
 					<li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a></li>
 				</ul>
 			</div>

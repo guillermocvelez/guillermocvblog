@@ -18,5 +18,5 @@
 	<slot></slot>
 </Main>
 
-<Footer></Footer>
+<!-- <Footer></Footer> -->
 
