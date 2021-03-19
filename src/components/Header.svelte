@@ -10,7 +10,7 @@
                 <img src="https://es.gravatar.com/userimage/34292835/9979b2a714d39e255c9beb228f6a23a3.jpg" alt="Avatar de Guillermo">
                 <div class="Header-logo-info">
                     <h1>Guillermo Castaño Vélez
-                        <span>UI/UX Designer & Frontend Developer</span>
+                        <span>UI/UX Designer & Frontend Developer y más cosas</span>
                     </h1>
                 </div>
             </div>
