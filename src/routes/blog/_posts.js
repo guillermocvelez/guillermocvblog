@@ -1,6 +1,7 @@
+//importamos los datos del json
 import data from './_posts.json';
+//post los hacemos igual a los datos que traemos
 let posts = data;
-
 
 
 posts.forEach(post => {

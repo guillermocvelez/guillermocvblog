@@ -67,6 +67,12 @@
 		color: rgba(25,26,34,1);
 	}
 
+	@media screen and (max-width: 992px){
+        .Nav {
+            padding: 16px;
+        }
+    }
+
 
 </style>
 

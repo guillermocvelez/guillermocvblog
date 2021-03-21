@@ -27,4 +27,10 @@
         grid-gap:60px;
         justify-content: space-between;
     }
+
+    @media screen and (max-width: 992px){
+	.Main-container {
+		padding: 16px;
+	}
+}
 </style>

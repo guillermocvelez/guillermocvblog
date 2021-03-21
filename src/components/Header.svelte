@@ -116,4 +116,16 @@
         transform: scale(0.9);
     }
 
+    @media screen and (max-width: 768px){
+        .Header-social {
+            display: none;
+        }
+        
+    }
+    @media screen and (max-width: 992px){
+        .Header {
+            padding: 16px;
+        }
+    }
+
 </style>
