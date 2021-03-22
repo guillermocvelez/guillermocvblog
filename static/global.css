@@ -43,8 +43,13 @@ code {
 	font-weight: 500;
 	color: #191a22;
   }
-  .content img {
-	width: 100%;
+  figure {
+	  display: flex;
+	  justify-content: center;
+  }
+  .content img {	
+	width: 30%;
+	
   }
   .content pre {
 	background-color: #f9f9f9;

@@ -11,6 +11,8 @@ const writeFile = (obj) => {
     console.log("Datos guardados");
 }
 
+
+
 const fetchData = async () => {
     const response = await fetch(API);
     const data = await response.json();
