@@ -25,7 +25,7 @@
     </style>
 
 <svelte:head>
-    <title>General</title>
+    <title>Proyectos</title>
 </svelte:head>
 <div class="Projects">
 

@@ -96,7 +96,7 @@
 			<li><strong>Artista, dibujante y pintor</strong>. Tengo mis habilidades muy desarrolladas, pero nunca al nivel de lo que yo considero un artista.</li>
 			<li><strong>Músico</strong>, toco el bajo y le doy al piano, pero no tengo la consistencia ni el talento, lo hago para relajarme un rato.</li>
 			<li><strong>Escritor</strong>, acá la pena de que lean lo mio me supera. Esta página es un avance muy grande.</li>
-			<li><strong>Profesor</strong>, es un gran deseo mio poder ser profesor algún día.</li>
+			<li><strong>Profesor</strong>, es un gran deseo mio poder ser profesor algún día. Tal vez por eso me animé finalmente a compartir algo de mi conocimiento y mi experiencia</li>
 			<li><strong>Diseñador de páginas web</strong>, pues ahí voy....</li>
 		</ul>
 	</div>
