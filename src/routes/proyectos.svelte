@@ -1,5 +1,8 @@
 <script>
     import analyticsTraking from '../utils/analytics';
+    import logo from '../../static/Logo.png';
+    import git from '../../static/github.png';
+    import behance from '../../static/behance.png';
 </script>
 
 
@@ -22,26 +25,77 @@
         text-decoration: none;
         color: #EF4228;
     }
+
+    .Projects-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:32px;
+    }
+    .project{
+        margin-bottom: 32px;
+        align-self: baseline;       
+    }
+    .Project-img{
+        width: 200px;
+    }
+    .Projec-img_font{
+        font-size: 32px;
+        color: #EF4228;
+    }
+    .Project-description{
+        font-size: 12px;
+        color:#414042;
+    }
+    .Project-btn{
+        background:linear-gradient(to top, #ef4228 5%, #ff6f59 100%);   
+        color: white;
+        font-weight: 700;
+        padding: 8px 16px;
+        border:none;
+        border-radius: 8px;
+        outline: none;
+        cursor: pointer;
+    }
+    .Project-btn:active{
+        transform:scale(0.90);
+    }
+    @media screen and (max-width:920px){
+        .Projects-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:32px;
+    }
+    }
     </style>
+
 
 <svelte:head>
     <title>Proyectos</title>
 </svelte:head>
 <div class="Projects">
 
-    <h2 class="Projects-message">Me encuentro desarrollando una api para visualizar productos, de momento puedes consultarlos en los repositorios</h2>
+    <div class="Projects-container">
+        <div class="project">
+            <img class="Project-img" src={logo} alt="">
+            <p class="Project-description">Matematips es un proyecto personal que nació de la necesidad de practicar JavaScript, manipulación del DOM y fortalecer la lógica de programación con métodos numérico para resolver problemas matemáticos.</p>
+           <a href="https://matematips.vercel.app/" target="_blank"> <button class="Project-btn" >Ir al sitio</button></a>
+        </div>
+        <div class="project">
+            <img src="" alt="">
+        </div>
+        <div class="project">
+            <img class="Project-img" src={git} alt="">
+            <p class="Project-description">Repositorio de Github donde están publicados todos los proyectos en los que estoy trabajando, algunos en Github Pages.</p>
+            <a href="https://github.com/guillermocvelez" target="_blank"> <button class="Project-btn" >Ir al sitio</button></a>
+        </div>
+        <div class="project">
+            <img class="Project-img" src={behance} alt="">
+            <p class="Project-description">Portafolio de Behance donde publico algunos proyectos de UI y otras cosas relacionadas con diseño</p>
+            <a href="https://www.behance.net/guillermocv" target="_blank"> <button class="Project-btn" >Ir al sitio</button></a>
+        </div>
+    </div>
 
-    <ul>
-        <li>
-            <a href="https://github.com/guillermocvelez" target="_blank" reel="noreferrer" on:click={analyticsTraking}>Repositorio de Github <i class="fab fa-github-square"></i></a>
-            <img src="" alt="">
-        </li>
-        <li>
-            <a href="https://www.behance.net/guillermocv" target="_blank" reel="noreferrer" on:click={analyticsTraking}>Portafolio en Behance <i class="fab fa-behance-square"></i></a>
-            <img src="" alt="">
-        </li>
-       
-    </ul>
+    
 
 
 </div>
