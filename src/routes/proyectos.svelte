@@ -84,7 +84,7 @@
         <div class="project">
             <img class="Project-img" src={logoUi} alt="">
             <p class="Project-description">La UIquipedia es una librería de recursos de UI/UX hecha por un diseñador para desarrolladores con el fin de darle solución a los problemas más comunes de usabilidad en la WEB (en desarrollo).</p>
-           <a href="https://matematips.vercel.app/" target="_blank"> <button class="Project-btn" >Ir al sitio</button></a>
+           <a href="https://www.behance.net/gallery/116898473/La-UIquipedia" target="_blank"> <button class="Project-btn" >Ir al sitio</button></a>
         </div>
        
         <div class="project">
