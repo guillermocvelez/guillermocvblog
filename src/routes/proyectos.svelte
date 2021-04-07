@@ -3,8 +3,8 @@
     import logo from '../../static/Logo.png';
     import git from '../../static/github.png';
     import behance from '../../static/behance.png';
+    import logoUi from '../../static/LogoHeaderUIqui.png'
 </script>
-
 
 <style>
     .Projects-message{
@@ -33,12 +33,13 @@
     }
     .project{
         margin-bottom: 32px;
-        align-self: baseline;       
+        align-self: baseline;
     }
     .Project-img{
         width: 200px;
     }
     .Projec-img_font{
+        align-self: flex-start;
         font-size: 32px;
         color: #EF4228;
     }
@@ -81,8 +82,11 @@
            <a href="https://matematips.vercel.app/" target="_blank"> <button class="Project-btn" >Ir al sitio</button></a>
         </div>
         <div class="project">
-            <img src="" alt="">
+            <img class="Project-img" src={logoUi} alt="">
+            <p class="Project-description">La UIquipedia es una librería de recursos de UI/UX hecha por un diseñador para desarrolladores con el fin de darle solución a los problemas más comunes de usabilidad en la WEB (en desarrollo).</p>
+           <a href="https://matematips.vercel.app/" target="_blank"> <button class="Project-btn" >Ir al sitio</button></a>
         </div>
+       
         <div class="project">
             <img class="Project-img" src={git} alt="">
             <p class="Project-description">Repositorio de Github donde están publicados todos los proyectos en los que estoy trabajando, algunos en Github Pages.</p>
